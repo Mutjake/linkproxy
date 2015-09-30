@@ -1,0 +1,17 @@
+{application, 'linkproxy',
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {'linkproxy_app', []}},
+  {applications,
+   [kernel,
+    stdlib,
+    irc_lib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
