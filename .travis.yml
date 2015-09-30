@@ -1,3 +1,5 @@
+# Disabled for now, as there is not too much information how to get rebar3 and travis to play nice
+
 sudo: false
 language: erlang
 install: "true"
