@@ -1,0 +1,10 @@
+sudo: false
+language: erlang
+install: "true"
+otp_release:
+  - 18.0
+  - 17.0
+script: "./rebar3 ct"
+branches:
+  only:
+    - master
